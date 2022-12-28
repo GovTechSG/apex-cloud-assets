@@ -6,9 +6,12 @@ This is a documentation repository for APEX Cloud, written for Documentation Por
 
 ## File Structure
 
-All markdown files should live within the **/docs** folder. Each main section should be a separate markdown file by itself. If you have added a new main section, you should also update [_sidebar.md](docs/_sidebar.md) so that it will show up when the webpage is rendered.
+For the repository in particular, we will only use the **files** folder to store any asset (docs, pdf, images). it will produce a url like this:
 
-All non-markdown files (i.e. images and sample code files) should live within the assets subfolder.
+> {domain}/files/{file-name}.{file-extension}
+> e.g.
+> http://localhost:3000/files/sample.pdf
+> https://docs.developer.tech.gov.sg/docs/apex-cloud-assets/files/sample.pdf
 
 ## Running Locally
 
